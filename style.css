@@ -1,0 +1,374 @@
+nav{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+    font-weight: bold;
+    
+}
+@media (min-width:500px) and  (max-width:900px){
+    .navbar-brand{
+        margin-left: 0px;
+        font-weight: lighter;
+        
+    }
+}
+.A{
+    color: orange;
+}
+.input-group{
+    display: inline-block;
+    position: relative;
+}
+
+.form-outline{
+    position: absolute;
+    left: 450px;
+    top: -40px;
+    
+}
+@media (min-width:500px) and  (max-width:900px){
+    .form-outline{
+        left: 110px;
+    }
+}
+.form-outline input{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .form-outline input{
+        width:250px;
+        
+    }
+}
+.btn{
+    position: absolute;
+    left: 800px;
+    top: -38px;
+    
+}
+@media (min-width:500px) and  (max-width:900px){
+    .btn{
+        left: 310px;
+    }
+}
+.B{
+    color: gray;
+}
+.div1{
+    position: absolute;
+    left: 1100px;
+    
+}
+@media (min-width:500px) and  (max-width:900px){
+    .div1{
+        left:390px;
+    }
+}
+.div1 i{
+    font-size: 20px;
+    padding-left: 5px;
+    color: white;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .div1 i{
+        font-size: 15px;
+    }
+}
+.container1{
+    width: 100%;
+    height: 70vh;
+    
+}
+@media (min-width:500px) and  (max-width:900px){
+    .container1{
+        height: 40vh;
+    }
+}
+
+
+.carousel-item {
+    margin-top: 80px;
+    margin-left: 300px;
+     
+}
+@media (min-width:500px) and  (max-width:900px){
+    .carousel-item{
+        margin-top: 80px;
+        margin-left: 200px;
+    }
+}
+
+
+.N{
+    position: absolute;
+    left: -198px;
+    top: 90px;
+    font-size: 40px;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .N{
+        position: absolute;
+        left: -175px;
+        top: 15px;
+        font-size: 20px;
+    }
+}
+.f{
+    position: absolute;
+    right:403px;
+    top: 90px;
+    font-size: 40px;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .f{
+        position: absolute;
+        right: 220px;
+        top: 15px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:500px) and  (max-width:900px){
+    .im1  {
+        width: 140px;
+        height: 150px;
+        margin-left: -130px;
+        margin-top: -30px;
+    }
+}
+.pp{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    color: rgb(18, 121, 206);
+    font-size: 20px;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .pp  {
+        position: absolute;
+        top: -10px;
+        left: 70px;
+        color: rgb(18, 121, 206);
+        font-size: 13px;
+    }
+}
+.ppp{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .ppp  {
+        position: absolute;
+        top: 8px;
+        left: 70px;
+        color: black;
+        font-size: 15px;
+    }
+}
+.btn1{
+    position: absolute;
+    top: 140px;
+    left: 500px;
+    width: 140px;
+    height:45px;
+    border-radius: 5px;
+    background-color: rgb(45, 105, 218);
+    border: none;
+    color: white;
+    
+}
+@media (min-width:500px) and  (max-width:900px){
+    .btn1  {
+        position: absolute;
+        top: 40px;
+        left: 70px;
+        width: 110px;
+        height:30px;
+        border-radius: 5px;
+        background-color: rgb(45, 105, 218);
+        border: none;
+        color: white;
+    }
+}
+.btn1:hover{
+    background-color: rgb(165, 159, 159);
+    color: black;
+}
+.card{
+    position: relative;
+}
+
+.card-text-left{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    color: rgb(48, 48, 184);
+    transform: rotate(30deg);
+    font-weight: bold;
+}
+.card-text{
+    position: absolute;
+    top: 100px;
+    left: 17px;
+    transform: rotate(30deg);
+    font-size: 22px;
+    font-weight: 600;
+}
+.card-img-right:hover{
+    transform: scale(0.8,0.8);
+}
+.aa{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 460px;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .aa  {
+        padding-left: 150px;
+    }
+}
+
+
+
+.card-text-right{
+    position:absolute ;
+    left: 170px;
+    top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-text-right1{
+    position:absolute ;
+    left: 170px;
+    top:60px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+del{
+    color: black;
+    font-size: 15px;
+}
+.diva {
+    position:absolute ;
+    left: 180px;
+    top: 95px;
+    color: rgb(241, 226, 17);
+}
+.card-img-left{
+    position: absolute;
+    transition: 1.5s;
+}
+
+.card-img-left:hover{
+    
+    visibility: hidden;
+}
+.div3{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(245, 245, 235);
+}
+@media (min-width:500px) and  (max-width:900px){
+    .div3  {
+        width: 100%;
+        height: 325vh;
+        background-color: rgb(245, 245, 235);
+    }
+}
+@media (min-width:500px) and  (max-width:900px){
+    .card1  {
+        width: 350px;
+        height: 225px;
+        
+    }
+}
+.uu{
+    float: right;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 18px;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .uu {
+        
+        margin-right:45px;
+        margin-top: -30px;
+        
+    }
+}
+.uu li{
+    display: inline-block;
+    margin-left: 13px;
+    font-size: 20px;
+    
+    
+}
+@media (min-width:500px) and  (max-width:900px){
+    .uu li  {
+        display: inline-block;
+        margin-left: 3px;
+        font-size: 11px;
+    }
+}
+.uu li a{
+    text-decoration: none;
+    color: rgb(238, 231, 231);
+}
+li a:focus{
+    color:blue;
+
+}
+.pppp{
+    font-size: 25px;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .pppp {
+        font-size: 13px;
+        margin-left: 15px;
+    }
+}
+.span1{
+    color: rgb(13, 178, 228);
+}
+.imm{
+    display: block;
+    margin-top: -45px;
+    margin-left:1000px;
+    margin-bottom: 20PX;
+}
+@media (min-width:500px) and  (max-width:900px){
+    .imm {
+        margin-left: 300px;
+        width: 150px;
+        height: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
